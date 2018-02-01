@@ -1,0 +1,71 @@
+@font-face{
+	font-family: "Couture";
+	src: url("../fonts/couture-bld.otf") 
+}
+
+@font-face{
+	font-family: "Splash";
+	src: url("../fonts/SPLASH__.ttf") 
+}
+
+html{
+	background-color: black;
+	background-image: url('../images/BG.jpg');
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	-webkit-background-image: url('../images/BG.jpg');
+	-moz-background-image: url('../images/BG.jpg');
+	-o-background-image: url('../images/BG.jpg');
+	background-image: url('../images/BG.jpg');
+}
+
+h1{
+	color:aqua;
+	font-family: "Couture";
+}
+
+#box1{
+	background-image: url(../images/flakes-01.svg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	height:200vh;
+	width: 100vw;
+	position: fixed;
+	top: -100vh;
+}
+
+#box2{
+	background-image: url(../images/flakes-02.svg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	height:200vh;
+	width: 100vw;
+	position: fixed;
+	top: -100vh;
+}
+
+#box3{
+	background-image: url(../images/flakes-03.svg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	height:200vh;
+	width: 100vw;
+	position: fixed;
+	top: -100vh;
+}
+
+#scrollHolder{
+	height:00px;
+	width: 0px;
+	background-color: red;
+}
+
+.box{
+	-webkit-transition:all .4s ease-out;
+	-moz-transition:all .4s ease-out;
+	-o-transition:all .4s ease-out;
+	transition:all .4s ease-out;
+}

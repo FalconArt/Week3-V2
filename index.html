@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title> Week 2 Parallax </title>
+	<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/main.css" >
+</head>
+<body>
+
+	<h1 style="width:100px; text-align:center; margin-top: 300px; margin-left:45%; transform-origin:center; color:aqua;" data-top="transform: rotate(0deg);" data-bottom="transform: rotate(770deg);">Hey There</h1>
+
+	<h1 style="width:100px; text-align:center; margin-top: 0px; margin-left:45%; transform-origin:center; color:aqua;" data-bottom="transform: rotate(0deg);" data-bottom="transform: scaley(-20);" data-top="transform: rotate(-700deg);" data-center="transform: scaley(1);">SNOW DAY</h1>
+
+	<div class="box" id="box1"></div>
+	<div class="box" id="box2"></div>
+	<div class="box" id="box3"></div>
+
+	<div id="scrollHolder"></div>
+
+	<script src="scripts/skrollr.min.js"></script>
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/main.js"></script>
+	<script>
+      var s = skrollr.init();
+	</script>
+
+</body>
+</html>
